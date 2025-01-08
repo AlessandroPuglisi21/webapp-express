@@ -1,4 +1,4 @@
-function errorsHandler(err, _, res) {
+function errorsHandler(err, _, res,) {
     res.status(500)
     res.json({
         message: err.message
